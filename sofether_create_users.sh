@@ -6,7 +6,7 @@ SERVER_PORT="443"       # Cambia esto por el puerto de tu servidor, si es necesa
 HUB_NAME="DEFAULT"      # Cambia esto por el nombre de tu Virtual Hub
 
 # Lista de usuarios a crear: username:password:group
-USERS=("cpavia:elsworda23:devops_dgsisan" "hmigliasso:123456:devops_dgsisan" "pcangero:123456:devops_dgsisan" "estudiotrama:intranet154614042024:intranet_estudiotrama")
+USERS=("")
 
 # Comando de conexión a vpncmd
 VPNCMD="vpncmd $SERVER_IP:$SERVER_PORT /SERVER /CMD"
